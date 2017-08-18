@@ -1,7 +1,5 @@
 service-ehr
-  db:
+  datasource:
     url: jdbc:oracle:thin:@192.168.20.46:1521:oracle12
     username: ehrtest
     password: 123456
-  log:
-    level: DEBUG
