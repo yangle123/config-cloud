@@ -1,5 +1,11 @@
 service-ehr:
   datasource:
-    url: jdbc:oracle:thin:@192.168.20.46:1521:oracle12
-    username: ehrtest
-    password: 123456
+    url: jdbc:oracle:thin:@192.168.20.67:1521:cwbpm
+    username: cwbpm
+    password: cwdb2016
+    
+#service-ehr:
+#  datasource:
+#    url: jdbc:oracle:thin:@192.168.20.46:1521:oracle12
+#    username: ehrtest
+#    password: 123456
