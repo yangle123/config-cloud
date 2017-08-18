@@ -1,20 +1,7 @@
-spring:
-  datasource:
-    driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@119.23.105.159:1521:orcl
-    username: gcbpm
-    password: gcbpm2017
-  devtools:
-    restart:
-      additional-paths: src/main/java
-
- 
-mybatis:
-  mapperLocations: classpath:mapping/*.xml
-    
-logging:
-  level:
-    root: INFO
-    com.ceway: DEBUG
-    
-yangleprofile: ceshi1天天开l从ceway2017
+service-ehr
+  db:
+    url: jdbc:oracle:thin:@192.168.20.46:1521:oracle12
+    username: ehrtest
+    password: 123456
+  log:
+    level: DEBUG
