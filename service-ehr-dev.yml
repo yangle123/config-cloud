@@ -1,9 +1,9 @@
 spring:
   datasource:
     driver-class-name: oracle.jdbc.driver.OracleDriver
-    url: jdbc:oracle:thin:@192.168.20.67:1521:cwbpm
-    username: cwbpm
-    password: cwdb2016
+    url: jdbc:oracle:thin:@119.23.105.159:1521:orcl
+    username: gcbpm
+    password: gcbpm2017
   devtools:
     restart:
       additional-paths: src/main/java
