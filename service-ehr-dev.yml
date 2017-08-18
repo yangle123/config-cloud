@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9000/eureka/
+
+spring:
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@192.168.20.46:1521:oracle12
+    username: ehrtest
+    password: 123456
+  devtools:
+    restart:
+      additional-paths: src/main/java
+
+ 
+mybatis:
+  mapperLocations: classpath:mapping/*.xml
+    
+logging:
+  level:
+    root: INFO
+    com.ceway: DEBUG
